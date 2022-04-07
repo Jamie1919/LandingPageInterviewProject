@@ -1,4 +1,6 @@
 import { Col, Container, Row } from "reactstrap";
+import Image from 'next/image';
+
 
 function AboutComponent() {
   return (
@@ -6,7 +8,7 @@ function AboutComponent() {
       <Container>
         <Row>
           <Col xs={12} md={6}>
-            <img src="LandingPage/AboutComponent.png" className="img-fluid" />
+            <Image src={"LandingPage/AboutComponent.png"} className="img-fluid" />
           </Col>
           <Col xs={12} md={6} className="about-details">
             <div>

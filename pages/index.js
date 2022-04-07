@@ -1,4 +1,5 @@
 import {Container, Row, Col} from 'reactstrap';
+import Image from 'next/image';
 
 function TopContainer() {
     return (
@@ -8,17 +9,17 @@ function TopContainer() {
           <Container className="container-top">
             <Row className="section-top">
               <Col xs={12} md={6} className="section-top-left">
-                <img className="img-fluid" src="LandingPage/TopComponent.png" />
+                <Image className="img-fluid" src={"LandingPage/TopComponent.png"} />
               </Col>
               <Col xs={12} md={6} className="section-top-right shadow">
                 <div className="">
-                  <img
+                  <Image
                     className="plate-img img-fluid"
-                    src=""
+                    
                   />
-                  <img
+                  <Image
                     className="plate-img img-fluid"
-                    src=""
+                   
                   />
                 </div>
                 <h6>The Platform</h6>
