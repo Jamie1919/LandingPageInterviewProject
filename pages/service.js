@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "reactstrap";
 import Image from 'next/image';
-
+/* eslint-disable */
 function ServiceComponent() {
   return (
     <div className="service-container-bg">

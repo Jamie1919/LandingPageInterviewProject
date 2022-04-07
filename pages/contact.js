@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "reactstrap";
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+/* eslint-disable */
 function ContactComponent() {
   return (
     <div className="contact-container-bg">
