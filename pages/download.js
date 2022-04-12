@@ -3,7 +3,8 @@ import Image from 'next/image';
 /* eslint-disable */
 function DownloadComponent() {
   return (
-    <div className="download-container-bg">
+    <div className="texture">
+    <div className="download-container-bg"></div>
       <Container className="download-component">
         <h3>The Platform</h3>
         <h3>Where to find us</h3>
@@ -11,11 +12,11 @@ function DownloadComponent() {
          Our App is available on the Google and App store
         </p>
         <Container className="img-download">
-          <Image
+          <img
             src={"https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"}
             className="img-fluid"
           />
-          <Image
+          <img
             src={"https://i2.wp.com/mofc.unic.ac.cy/wp-content/uploads/revslider/decentralized-2020-home-slider1-12/get-it-on-app-store.png?ssl=1"}
             className="img-fluid"
           />

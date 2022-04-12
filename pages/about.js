@@ -4,11 +4,12 @@ import Image from 'next/image';
 
 function AboutComponent() {
   return (
-    <div className="about-container-bg">
+    <div className="texture">
+    <div className="about-container-bg"></div>
       <Container>
         <Row>
           <Col xs={12} md={6}>
-            <Image src={"LandingPage/AboutComponent.png"} className="img-fluid" />
+            <img src={"LandingPage/AboutComponent.png"} className="img-fluid" />
           </Col>
           <Col xs={12} md={6} className="about-details">
             <div>

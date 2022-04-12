@@ -1,5 +1,6 @@
 import {Container, Row, Col} from 'reactstrap';
 import Image from 'next/image';
+import imageURL from '../public/LandingPage/TopComponent.png';
 /* eslint-disable */
 function TopContainer() {
     return (
@@ -9,15 +10,15 @@ function TopContainer() {
           <Container className="container-top">
             <Row className="section-top">
               <Col xs={12} md={6} className="section-top-left">
-                <Image className="img-fluid" src={"LandingPage/TopComponent.png"} />
+                <img src="/LandingPage/TopComponent.png" className="img-fluid"/>
               </Col>
               <Col xs={12} md={6} className="section-top-right shadow">
                 <div className="">
-                  <Image
+                  <img
                     className="plate-img img-fluid"
                     
                   />
-                  <Image
+                  <img
                     className="plate-img img-fluid"
                    
                   />
